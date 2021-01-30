@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Signature';
+   
+    src: 
+         url('../fonts/SurfshirtSignature.ttf')  format('truetype');
+  }
+  .cap_text 
+  {
+    color: #525052 !important;
+  }
+  .cap_text strong
+  {
+    color: #192751;
+  }
+  .cap_text strong
+  {
+    text-transform: uppercase;
+  }
+  .signature
+  {
+    font-family: 'Signature';
+    font-size: 56px;
+    margin: 0;
+  }
+  .description h3
+  {
+    font-weight:600;
+    color: #192751;
+  }
+  .description a
+  {
+    border-radius:50px;
+    background-color: #192751;
+    color: white;
+    padding:15px;
+    width:30%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 745px) {
+    .description .resume
+    {
+        width: 70% !important;
+    }
+  }
+  .social ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    padding:0px;
+}
+ .social ul li
+{
+    margin-right:20px;
+}
+ .social ul li a
+{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    color:white;
+    text-align:center;
+    padding: 5px;
+}
+.information
+{
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 5%;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+}
+
+.information .part h2:before {
+  content: "";
+  display: block; 
+  width: 10%; 
+  border-bottom: 2px solid #192751; 
+  margin-bottom: 10px;
+}
+.information .part
+{
+  position: relative;
+  margin-top:60px;
+}
+.information  ul
+{
+  padding:0px;
+}
+.information .part .ico
+{
+  position: absolute;
+  width:40px;
+  height:40px;
+  top:20px;
+  right:0px;
+}  
+
+.levels
+{
+  display:flex;
+  flex-direction: row;
+}
+.levels li
+{
+  width:20%;
+  margin-right:5%;
+  border-bottom: 7px solid #192751;
+}
+.levels .low
+{
+  border-color: #9fa7bf;
+}
+.hobbies 
+{
+  display:flex;
+  flex-direction:row;
+  margin-left:10px;
+}
+.hobbies li
+{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border: 2px solid #192751;
+  margin-right:20px;
+}
+.hobbies img
+{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+.education .bullet_text 
+{
+  display:flex;
+  flex-direction:row;
+}
+.education .bullet_text span
+{
+font-size:30px;
+}
+.education .bullet_text h5
+{
+  margin:0;
+  margin-left:10px;
+  margin-top:10px;
+
+}
+.education .bullet_text span::before {
+  content: "• ";
+  width:10px;
+  display:inline-block;
+  font-weight: bold;
+  color: #192751;
+}
+.education .date
+{
+  font-style:italic;
+  font-size: 14px;
+
+}
+.education p
+{
+  word-break: break-all;
+  margin: 0;
+  margin-left:20px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table td, table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #customers th {
+    padding: 14px;
+    background-color: #192751;
+    color: white;
+    text-align: left;
+  }

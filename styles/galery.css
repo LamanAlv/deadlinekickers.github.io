@@ -1,0 +1,37 @@
+.gallery {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    background-image:url('../images/1.jpg');
+    background-size:cover;
+    height:400px;
+
+  }
+  .grid
+  {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  }
+  .hidden 
+  {
+    display:none;
+  }
+  .pages ul
+  {
+    display:flex;
+    flex-direction:row;
+    margin-top:70px;
+  }
+  .pages ul li
+  {
+    padding: 10px 20px;
+    color:#757375;
+    cursor:pointer;
+  }
+  .pages ul .active
+  {
+    background-color: #192751;
+    color:white;
+  }

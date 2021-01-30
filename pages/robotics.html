@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/project.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Robotics project</title>
+</head>
+
+<body>
+   
+        <header>
+                <ul>
+                    <li class="logo_div">
+                        <div>
+                                <img src="../images/logo.svg"> 
+                                <a>Dealine kickers</a> 
+                        </div>
+                    </li>
+                   
+                            <li class="links"><a href="index.html">Home</a></li>
+                            <li  class="menu links">
+                                <a>Projects <img class="a_icon" src="../images/arrow.png"/></a>
+                                <div class="menu-drop">
+                                        <a  href="hourofcode.html">Hour of code</a>
+                                <a href="howwebsiteswork.html">How websites work</a>
+                                <a class="active"  href="robotics.html">Robotics project</a>
+                                </div>
+                            </li> 
+                            <li  class="links "><a href="galery.html">Galery</a></li>
+                            <li class="hamburger"><img class="a_icon" src="../images/bars.png"/>
+                                <div class="hamburger-drop">
+                                        <a href="index.html">Home</a>
+                                        <a href="hourofcode.html">Hour of code</a>
+                                        <a href="howwebsiteswork.html">How websites work</a>
+                                        <a class="active"  href="robotics.html">Robotics project</a>
+                                        <a    href="galery.html">Galery</a>
+                                </div>
+                            </li>
+                </ul>
+        </header>
+<section class="hero" id="backgroundDiv">
+<div class="caption">
+    <h1 id="welcomTitle"></h1>
+    <br/><div class="search_box">
+            <input onchange="globalSearch(false)"  name="headerSearchInput" placeholder="Search for team members, projects, pages.." type="text"/>
+            <img  onclick="globalSearch(false)" src="../images/search.png"/>
+    </div>
+</div>
+</section>
+
+         
+
+            <section class="block" >
+                        <h1  class="center cap_text">ROBOTICS PROJECT</h1>
+                        <p class="center coming">UPCOMING...</p>
+                        <div id="mainclock">
+                            <div class="small" id="dayId"></div>
+                            <div class="small" id="hourId"></div>
+                            <div class="small" id="minutesId"></div>
+                            <div class="small" id="secondId"></div>
+                          </div>
+            </section>
+
+               
+
+           <section class="block scroll">
+                <h1  class="center cap_text">Contribution</h1>
+
+                <table id="customers">
+                        <tr>
+                          <th>Name Surname</th>
+                          <th>Contribution</th>
+                          <th>Percentage</th>
+                        </tr>
+                        <tr>
+                          <td>Laman Aliyeva</td>
+                          <td>Upcoming...</td>
+                          <td><img src="../images/clock.png"/></td>
+                        </tr>
+                        <tr>
+                                        <td>Yadigar Yusifov</td>
+                                        <td>Upcoming...</td>
+                                        <td><img src="../images/clock.png"/></td>
+                              </tr>
+                              <tr>
+                                        <td>Aliya Huseynova</td>
+                                        <td>Upcoming...</td>
+                                        <td><img src="../images/clock.png"/></td>
+                                  </tr>
+                                  <tr>
+                                                <td>Hasan Naghiyev</td>
+                                                <td>Upcoming...</td>
+                                                <td><img src="../images/clock.png"/></td>
+                                      </tr>
+                      </table>
+           </section>
+
+      
+            <footer>
+                <section>
+                        <div class="search">
+                                <h3>Global search</h3>
+                                <div class="search_box">
+                                                <input onchange="globalSearch(true)"  name="footerSearchInput" placeholder="Search..." type="text"/>
+                                                <img onclick="globalSearch(true)" src="../images/search.png"/>
+                                            
+                                        </div>
+                         </div>
+                         <div class="social">
+                                 <h3>Follow us</h3>
+                                 <ul>
+                                     <li>
+                                                <a href="https://www.facebook.com/deadlinekickers/" class="facebook">
+                                                                <img class="a_icon" src="../images/facebook.png"/>
+                                                            </a>
+                                     </li>
+                                     <li>
+                                                <a  href="https://www.instagram.com/deadlinekickers.az/" class="instagram">
+                                                                <img class="a_icon" src="../images/instagram.png"/>
+                                                            </a>
+                                     </li>
+                                     <li>
+                                                <a  href="https://www.youtube.com/channel/UCJ7kufyS3ZSFkRUQ8Mt16-Q" class="youtube">
+                                                        <img class="a_icon" src="../images/youtube.png"/>
+                                                    </a>
+                                     </li>
+                                 </ul>
+                         </div>
+                         <div class="contact">
+                                <h3>Contact us</h3>
+                                <ul>
+                                     
+                                        <li>
+                                                <p> <img class="a_icon" src="../images/email.png"/> deadlinekickers@gmail.com</p>
+                                        </li>
+                                    </ul>
+                        </div>
+                </section>
+              
+            </footer>
+
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/countdown.js"></script>
+
+</body>
+</html>

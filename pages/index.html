@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.svg">
+
+    <title>Deadline Kickers</title>
+</head>
+
+<body>
+   
+        <header>
+                <ul>
+                    <li class="logo_div">
+                        <div>
+                                <img src="../images/logo.svg"> 
+                                <a>Dealine kickers</a> 
+                        </div>
+                    </li>
+                   
+                            <li class="links"><a class="active" href="index.html">Home</a></li>
+                            <li  class="menu links">
+                                <a>Projects <img class="a_icon" src="../images/arrow.png"/></a>
+                                <div class="menu-drop">
+                                        <a href="hourofcode.html">Hour of code</a>
+                                <a href="howwebsiteswork.html">How websites work</a>
+                                <a href="robotics.html">Robotics project</a>
+                                </div>
+                            </li>
+                   
+                    <li  class="links"><a  href="galery.html">Galery</a></li>
+                    <li class="hamburger"><img class="a_icon" src="../images/bars.png"/>
+                        <div class="hamburger-drop">
+                                <a class="active" href="index.html">Home</a>
+                                <a href="hourofcode.html">Hour of code</a>
+                                <a href="howwebsiteswork.html">How websites work</a>
+                                <a href="robotics.html">Robotics project</a>
+                                <a   href="galery.html">Galery</a>
+                        </div>
+                    </li>
+                </ul>
+        </header>
+<section class="hero" id="backgroundDiv">
+<div class="caption">
+    <h1 id="welcomTitle"></h1>
+    <br/><div class="search_box">
+            <input onchange="globalSearch(false)"  name="headerSearchInput" placeholder="Search for team members, projects, pages.." type="text"/>
+            <img  onclick="globalSearch(false)" src="../images/search.png"/>
+    </div>
+</div>
+</section>
+
+            <section id="about" class="block about">
+                <div class="description">
+                    <h1 class="cap_text">About us</h1>
+                    <p>Deadline kickers (or team N27) including Hasan Naghiyev, Yadigar Yusifov, Laman Aliyeva and Aliya Huseynova is a group of students from ADA University, working on several projects of ICT course. Team has already accomplished “Hour of Code” assignment, which purpose was to organize programming event to schoolchildren and “How websites work” assignment, dedicated to creating introductory website about our team. Currently, we are working on upcoming “Robotics project” and researching information about programming robots. 
+</p>
+                </div>
+                <div class="photo">
+                    <img src="../images/team.png"/>
+                </div>
+            </section>
+            <section  id="members" class="block">
+                <h1  class="center cap_text">Team members</h1>
+                <div class="members">
+                    <div class="member">
+                       <img src="../images/hesen.jpeg" />
+
+                       <a  href="hasan.html">
+                        <h2  class="center">
+                            Hasan Naghiyev
+                        </h2>
+                    </a>
+                        <p>
+                                I am backend developer in Java Spring Framework. l have experiences in writing MVC web applications in Spring Boot and Restful Services. l do have experience in Spring Security, Spring Cloud and Micro-services...
+                        </p>
+                        <a class="learn" href="hasan.html">Learn more...</a>
+                    </div>
+                    <div class="member">
+                            <img src="../images/yadigar2.jpg" />
+                            <a  href="yadigar.html">
+                                <h2 class="center">
+                                        Yadigar Yusifov
+                                </h2>
+                            </a>
+                            <p>
+                                    Hi! I am Yadigar. I was born in 2002 in the city of Baku. I have started the secondary school in 2008 and graduated in 2019. During my school life, I used to have a huge interest in football, therefore I was enrolled and...
+
+
+                            </p>
+                            <a  class="learn" href="yadigar.html">Learn more...</a>
+                        </div>
+                       
+                            <div class="member">
+                                    <img src="../images/aliya1.jpg" />
+                                    <a  href="aliya.html">
+                                          <h2  class="center">
+                                            Aliya Huseynova
+                                        </h2>
+                                    </a>
+                                  
+                                    <p>
+                                            I was born in 2001, and now I am on my first year of the Bachelor of Informational Technology. Being at the school, I loved math and chemistry and wanted to tie my life with this field. Growing up, I have decided to...
+
+
+                                    </p>
+                                    <a  class="learn" href="aliya.html">Learn more...</a>
+
+                                </div>
+                                <div class="member">
+                                        <img src="../images/laman.jpeg" />
+                                        <a href="laman.html">
+                                            <h2  class="center">
+                                            Laman Aliyeva 
+                                            </h2>
+                                        </a>
+                                        <p>
+                                                Hello! I am Laman Aliyeva and I was born on December 29, 2002. I have been programming since the age of thirteen and from that time decided to become a computer scientist. Currently, I am a first-year computer ...
+        
+        
+                                        </p>
+                                        <a  class="learn" href="laman.html">Learn more...</a>
+        
+                                    </div>
+                </div>
+            </section>
+            <footer>
+                <section>
+                        <div class="search">
+                                <h3>Global search</h3>
+                                 <div class="search_box">
+                                         <input onchange="globalSearch(true)"  name="footerSearchInput" placeholder="Search..." type="text"/>
+                                         <img onclick="globalSearch(true)" src="../images/search.png"/>
+                                     
+                                 </div>
+                         </div>
+                         <div class="social">
+                                <h3>Follow us</h3>
+                                <ul>
+                                    <li>
+                                               <a href="https://www.facebook.com/deadlinekickers/" class="facebook">
+                                                               <img class="a_icon" src="../images/facebook.png"/>
+                                                           </a>
+                                    </li>
+                                    <li>
+                                               <a  href="https://www.instagram.com/deadlinekickers.az/" class="instagram">
+                                                               <img class="a_icon" src="../images/instagram.png"/>
+                                                           </a>
+                                    </li>
+                                    <li>
+                                               <a  href="https://www.youtube.com/channel/UCJ7kufyS3ZSFkRUQ8Mt16-Q" class="youtube">
+                                                       <img class="a_icon" src="../images/youtube.png"/>
+                                                   </a>
+                                    </li>
+                                </ul>
+                        </div>
+                         <div class="contact">
+                                 <h3>Contact us</h3>
+                                 <ul>
+                                      
+                                         <li>
+                                                 <p> <img class="a_icon" src="../images/email.png"/> deadlinekickers@gmail.com</p>
+                                         </li>
+                                     </ul>
+                         </div>
+                </section>
+              
+            </footer>
+
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
